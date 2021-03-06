@@ -1,0 +1,52 @@
+.hero {
+  padding: 74px 16px 0;
+
+  &__contact{
+      background: $textLink;
+      border-radius: 64px;
+      text-decoration: none;
+      color: #fff;
+      display: inline-block;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 40px;
+      padding: 4px 24px;
+      margin-top: 48px;
+  }
+  
+  &__header {
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    color: $textDark;
+  }
+  &__hello {
+    display: none;
+  }
+  &__image {
+    box-sizing: content-box;
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    border: 16px solid #f6f9fd;
+  }
+  &__image-container {
+    display: flex;
+    justify-content: center;
+  }
+  &__link {
+    text-decoration: none;
+    color: $textLink;
+    font-weight: bold;
+  }
+  &__paragraph {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    
+  }
+  &__special {
+    color: $blue;
+  }
+}
