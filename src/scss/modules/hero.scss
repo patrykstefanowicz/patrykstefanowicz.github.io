@@ -120,6 +120,9 @@
   }
   &__special {
     color: $blue;
-    white-space: nowrap;
+    @media (min-width: $desktop){
+      white-space: nowrap;
+    }
+    
   }
 }
