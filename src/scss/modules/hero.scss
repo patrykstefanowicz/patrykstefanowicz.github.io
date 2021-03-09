@@ -1,5 +1,5 @@
 .hero {
-  padding: 74px 16px 64px;
+  padding: 74px 16px 88px;
 
   &__contact{
       background: $textLink;
@@ -8,12 +8,14 @@
       color: #fff;
       display: inline-block;
       font-weight: bold;
-      font-size: 14px;
+      font-size: 15px;
       line-height: 40px;
       padding: 4px 24px;
       margin-top: 48px;
   }
-  
+  &__description{
+    text-align: center;
+  }
   &__header {
     font-size: 26px;
     line-height: 32px;
