@@ -69,6 +69,7 @@
     margin: 0 0 8px 0;
     @media (min-width: $desktop) {
       grid-template-columns: 116px 1fr;
+      padding: 0 16px 0 16px;
     }
     &--description{
       margin-bottom: 24px;
