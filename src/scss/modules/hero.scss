@@ -4,6 +4,11 @@
     max-width: 768px;
     margin: 0 auto;
   }
+
+  @media (min-width: $desktop){
+    max-width: 100%;
+  }
+
   &__cloud {
     position: absolute;
     left: calc(50% + 89px);
@@ -23,6 +28,28 @@
   }
   &__description {
     text-align: center;
+    @media (min-width: $desktop){
+    max-width: 805px;
+    margin: 0 auto;
+    position: relative;
+    &::before , &::after{
+      width: 82.94px;
+      height: 254.88px;
+      color: $lightBlue;
+      content: '';
+      display: block;
+      position: absolute;
+      top: -10px;
+    }
+    &::before{
+      background: url('../assets/img/hero-left.svg');
+      right: 100%;
+    }
+    &::after{
+      background: url('../assets/img/hero-right.svg');
+      left: 100%;
+    }
+    }
   }
   &__header {
     font-size: 26px;
@@ -93,5 +120,6 @@
   }
   &__special {
     color: $blue;
+    white-space: nowrap;
   }
 }
