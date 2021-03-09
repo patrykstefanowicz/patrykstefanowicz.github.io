@@ -21,23 +21,30 @@
     <main>
       <section class="hero">
         <div class="hero__image-container">
-          <img class="hero__image" src="../assets/img/patryk.jpg" alt="Patryk photo" />
+          <img
+            class="hero__image"
+            src="../assets/img/patryk.jpg"
+            alt="Patryk photo"
+          />
           <span class="hero__hello">Hey there! 👋</span>
         </div>
         <div class="hero__description">
           <h1 class="hero__header">
-            My name is Patryk and I want to be 
+            My name is Patryk and I want to be
             <span class="hero__special">junior Frontend developer</span>.
           </h1>
           <p class="hero__paragraph">
             You might be interested in checking the list of
-            <a class="hero__link" href="#skills">my skills</a>. Don’t forget to have a glimpse at
-            <a class="hero__link" href="#projects">my projects</a>. Currently I’m looking for a new
-            challenges so if you have one - <a class="hero__link" href="#contact">contact me</a> 😊
-          
-          <a class="hero__contact" href="mailto:patrykstefanowicz95@gmail.com"
-            >patrykstefanowicz95@gmail.com</a
-          ></p>
+            <a class="hero__link" href="#skills">my skills</a>. Don’t forget to
+            have a glimpse at
+            <a class="hero__link" href="#projects">my projects</a>. Currently
+            I’m looking for a new challenges so if you have one -
+            <a class="hero__link" href="#contact">contact me</a> 😊
+
+            <a class="hero__contact" href="mailto:patrykstefanowicz95@gmail.com"
+              >patrykstefanowicz95@gmail.com</a
+            >
+          </p>
         </div>
       </section>
 
@@ -85,31 +92,39 @@
 
       <section class="projects">
         <h2 class="projects__header">Recent projects</h2>
-        <p class="projects__descriptions">
+        <p class="projects__description">
           I started learn my frontend path in 2020. Since then, I’ve built some
           projects. Here’s the list of the things I’ve done so far.
         </p>
         <div class="projects-grid">
           <article class="project">
-            <h3 class="project__title">
-              <span>project:</span><span>hydrapp</span>
-            </h3>
-            <p>
-              <span>description:</span>
-              <span>Application for counting the amount of water drunk</span>
-            </p>
-            <p>
-              <span>demo:</span>
-              <span
-                >&lt;<a href="#" title="hydrapp - demo">see here</a>&gt;
-              </span>
-            </p>
-            <p>
-              <span>github:</span>
-              <span
-                >&lt;<a href="#" title="hydrapp - code">source code</a>&gt;
-              </span>
-            </p>
+            <div class="project__window">
+              <span class="project__circle"></span>
+              <span class="project__circle"></span>
+              <span class="project__circle"></span>
+            </div>
+            <div class="project__content">
+              <img src="../assets/img/github.svg">
+              <h3 class="project__grid project__title">
+                <span class="project__label">project:</span><span>hydrapp</span>
+              </h3>
+              <p class="project__grid">
+                <span class="project__label">description:</span>
+                <span>Application for counting the amount of water drunk</span>
+              </p>
+              <p class="project__grid">
+                <span class="project__label">demo:</span>
+                <span 
+                  >&lt;<a class="project__link" href="https://patrykstefanowicz.github.io/hydrapp/" title="hydrapp - demo">see here</a>&gt;
+                </span>
+              </p>
+              <p class="project__grid">
+                <span class="project__label">github:</span>
+                <span 
+                  >&lt;<a class="project__link" href="https://github.com/patrykstefanowicz/hydrapp" title="hydrapp - code">source code</a>&gt;
+                </span>
+              </p>
+            </div>
           </article>
         </div>
       </section>
@@ -129,9 +144,7 @@
               </a>
             </li>
             <li class="socials__item">
-              <a
-                class="socials__link"
-                href="https://instagram.com/steefan_p"
+              <a class="socials__link" href="https://instagram.com/steefan_p"
                 ><img class="socials__icon" alt="Patryk - instagram" />
               </a>
             </li>
