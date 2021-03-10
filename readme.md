@@ -1,4 +1,4 @@
-![portfolio](https://patrykstefanowicz.github.io/og-portfolio.png)
+![cover](https://patrykstefanowicz.github.io/og-portfolio.png)
 
 # Patryk Stefanowicz - Junior Frontend Developer 
 
@@ -12,7 +12,7 @@ My portfolio website.
 - CSS Grid
 - CSS Flex
 - Animation
-- 
+
 
 
 
