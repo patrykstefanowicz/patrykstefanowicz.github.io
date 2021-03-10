@@ -27,13 +27,13 @@ fetch("https://api.github.com/users/patrykstefanowicz/repos")
           <p class="project__grid">
             <span class="project__label">demo:</span>
             <span 
-              >&lt;<a target="_blank" class="project__link" href="${homepage}" title="${name} - demo">see here</a>&gt;
+              >&lt;<a target="_blank" rel=”noopener noreferrer” class="project__link" href="${homepage}" title="${name} - demo">see here</a>&gt;
             </span>
           </p>
           <p class="project__grid">
             <span class="project__label">github:</span>
             <span 
-              >&lt;<a target="_blank" class="project__link" href="${html_url}" title="${name} - code">source code</a>&gt;
+              >&lt;<a target="_blank" rel=”noopener noreferrer” class="project__link" href="${html_url}" title="${name} - code">source code</a>&gt;
             </span>
           </p>
         </div>
