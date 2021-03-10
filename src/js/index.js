@@ -1,5 +1,7 @@
 import "../scss/main.scss";
 
+console.log("Hi, I'm Patryk - nice to meet you 😃")
+
 fetch("https://api.github.com/users/patrykstefanowicz/repos")
   .then((res) => res.json())
   .then((res) => {
